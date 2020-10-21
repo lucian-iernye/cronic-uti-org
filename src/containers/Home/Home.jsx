@@ -4,7 +4,7 @@ import styles from "./Home.module.scss";
 const Home = () => {
   return (
     <>
-      <p>Home works</p>
+      <div className={styles.home}>Home page</div>
     </>
   );
 };

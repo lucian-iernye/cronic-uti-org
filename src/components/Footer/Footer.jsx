@@ -4,7 +4,9 @@ import styles from "./Footer.module.scss";
 const Footer = () => {
   return (
     <>
-      <p>Footer works</p>
+      <div className={styles.footer}>
+        <p>Footer works</p>
+      </div>
     </>
   );
 };
