@@ -1,10 +1,13 @@
 import React from "react";
 import styles from "./NavBar.module.scss";
+import logo from "../../images/logo/logo.png";
 
 const NavBar = () => {
   return (
     <>
-      <p>NavBar works</p>
+      <div className={styles.navbar}>
+        <img src={logo} className={styles.navbar__logo} alt="logo" />
+      </div>
     </>
   );
 };
