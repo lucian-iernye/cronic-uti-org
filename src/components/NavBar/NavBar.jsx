@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
+import logo from "../../assets/images/logo.jpg";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -25,7 +26,7 @@ const NavBar = () => {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            C-UTI.org <i class="fas fa-hand-holding-heart"></i>
+            <img src={logo} alt="logo" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -52,6 +53,24 @@ const NavBar = () => {
                 onClick={closeMobileMenu}
               >
                 Join Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/about-us"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Link
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/join-us"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Link
               </Link>
             </li>
 

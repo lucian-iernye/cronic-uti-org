@@ -4,7 +4,9 @@ import styles from "./Donate.module.scss";
 const Donate = () => {
   return (
     <>
-      <p>Donate works</p>
+      <div className={styles.donate}>
+        <h1>Donate</h1>
+      </div>
     </>
   );
 };

@@ -1,7 +1,22 @@
 .home {
-  height: 500px;
+  height: calc(100vh - 80px);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: darkorange;
+  background: url("https://www.washingtonpost.com/rf/image_1484w/2010-2019/WashingtonPost/2016/08/15/Production/LocalLiving/Images/hydration_1200x620.jpg?t=20170517");
+  background-attachment: fixed;
+  background-position: center;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h1 {
+    font-size: 50px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 100px;
+    }
+  }
 }

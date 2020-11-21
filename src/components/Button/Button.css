@@ -29,6 +29,11 @@
   font-size: 18px;
 }
 
+.btn--small {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
 .btn--large {
   padding: 12px 26px;
   font-size: 20px;

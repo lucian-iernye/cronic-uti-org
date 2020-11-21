@@ -21,9 +21,8 @@ const App = () => {
           <Route path="/join-us" component={JoinUs} />
           <Route path="/donate" component={Donate} />
         </Switch>
+        <Footer />
       </Router>
-
-      <Footer />
     </div>
   );
 };

@@ -4,7 +4,9 @@ import styles from "./JoinUs.module.scss";
 const JoinUs = () => {
   return (
     <>
-      <p>JoinUs works</p>
+      <div className={styles.join}>
+        <h1>Join Us</h1>
+      </div>
     </>
   );
 };
