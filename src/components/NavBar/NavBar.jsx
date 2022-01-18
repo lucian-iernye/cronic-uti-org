@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
-import logo from "../../assets/images/logo.jpg";
+// import logo from "../../assets/images/logo.jpg";
+import logo from "../../assets/images/BLADDER LOGO_FINAL_print_300dpi_logo_bladder.png";
 
 const NavBar = () => {
   const [click, setClick] = useState(false);
